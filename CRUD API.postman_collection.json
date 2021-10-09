@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "fce20f9c-28e2-48e5-b921-68ab95d13504",
+		"name": "CRUD API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET BY ID USER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/user/6161b3b9652e560ea8c718f1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"6161b3b9652e560ea8c718f1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE USER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Rishi\",\r\n    \"Email\":\"yolo@gmail.com\",\r\n    \"Password\":\"Rishi123\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BY ID POST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/posts/6161b3bd652e560ea8c718f2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"6161b3bd652e560ea8c718f2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Caption\":\"Spiderman No Way Home\",\r\n    \"Imageurl\":\"https://static.wikia.nocookie.net/disney/images/5/59/Spider-Man_No_Way_Home_Title_Card.png/revision/latest?cb=20210225121056\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL POST BY USER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/posts/6161b3bd652e560ea8c718f2/user/6161b3b9652e560ea8c718f1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"6161b3bd652e560ea8c718f2",
+						"user",
+						"6161b3b9652e560ea8c718f1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
