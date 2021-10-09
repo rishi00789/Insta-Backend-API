@@ -3,6 +3,8 @@
 The task is to develop a basic backend API for Instagram.Below are the details.
 
 You are required to Design and Develop an HTTP JSON API capable of the following operations,
+
+
 •	Create an User
   -	Should be a POST request
   -	Use JSON request body
