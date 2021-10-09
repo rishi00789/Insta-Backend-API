@@ -39,13 +39,18 @@ You are required to Design and Develop an HTTP JSON API capable of the following
 # Build Dependencies
 
 ``` 
-- go get github.com/julienschmidt/httprouter
-- go get gopkg.in/mgo.v2 (MongoDB Driver for Golang)
+go get github.com/julienschmidt/httprouter
+```
+
+```
+go get gopkg.in/mgo.v2 (MongoDB Driver for Golang)
 
 ```
 
 # Run
+```
 - go run main.go
+```
 
 # Testing 
 - Use Postman for testing each function
