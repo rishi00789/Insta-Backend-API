@@ -33,3 +33,15 @@ You are required to Design and Develop an HTTP JSON API capable of the following
  -	Should be a GET request
  -	URL should be ‘/posts/users/<*id here*>'
 
+
+
+# Build Dependencies
+
+- go get github.com/julienschmidt/httprouter
+- go get gopkg.in/mgo.v2
+
+# Run
+- go run main.go
+
+# Testing 
+- Use Postman for testing each function
