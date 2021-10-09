@@ -14,7 +14,7 @@ You are required to Design and Develop an HTTP JSON API capable of the following
 •	Get a user using id
  -	Should be a GET request
  -	Id should be in the url parameter
- -	URL should be ‘/users/<id here>’
+ -	URL should be ‘/users/<<id here>>’
 
   
 •	Create a Post
