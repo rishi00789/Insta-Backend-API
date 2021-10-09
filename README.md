@@ -8,13 +8,13 @@ You are required to Design and Develop an HTTP JSON API capable of the following
 •	Create an User
  -	Should be a POST request
  -	Use JSON request body
- -	URL should be ‘/users'
+ -	URL should be ‘/user'
 
 
 •	Get a user using id
  -	Should be a GET request
  -	Id should be in the url parameter
- -	URL should be ‘/users/<*id here*>’
+ -	URL should be ‘/user/<*id here*>’
 
   
 •	Create a Post
@@ -31,7 +31,7 @@ You are required to Design and Develop an HTTP JSON API capable of the following
   
 •	List all posts of a user
  -	Should be a GET request
- -	URL should be ‘/posts/users/<*id here*>'
+ -	URL should be ‘/posts/user/<*id here*>'
 
 
 
